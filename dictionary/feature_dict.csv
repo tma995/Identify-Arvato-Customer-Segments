@@ -1,0 +1,367 @@
+,Attribute,Type,Value,information_level
+0,AGER_TYP,categorical,"[-1, 0]",person
+1,ALTERSKATEGORIE_GROB,ordinal,"[-1, 0, 9]",person
+2,ANREDE_KZ,categorical,"[-1, 0]",person
+3,CJT_GESAMTTYP,categorical,[0],person
+4,FINANZ_MINIMALIST,ordinal,[-1],person
+5,FINANZ_SPARER,ordinal,[-1],person
+6,FINANZ_VORSORGER,ordinal,[-1],person
+7,FINANZ_ANLEGER,ordinal,[-1],person
+8,FINANZ_UNAUFFAELLIGER,ordinal,[-1],person
+9,FINANZ_HAUSBAUER,ordinal,[-1],person
+10,FINANZTYP,categorical,[-1],person
+11,GEBURTSJAHR,numeric,[0],person
+12,GFK_URLAUBERTYP,categorical,[],person
+13,GREEN_AVANTGARDE,categorical,[],person
+14,HEALTH_TYP,ordinal,"[-1, 0]",person
+15,LP_LEBENSPHASE_FEIN,mixed,[0],person
+16,LP_LEBENSPHASE_GROB,mixed,[0],person
+17,LP_FAMILIE_FEIN,categorical,[0],person
+18,LP_FAMILIE_GROB,categorical,[0],person
+19,LP_STATUS_FEIN,categorical,[0],person
+20,LP_STATUS_GROB,categorical,[0],person
+21,NATIONALITAET_KZ,categorical,"[-1, 0]",person
+22,PRAEGENDE_JUGENDJAHRE,mixed,"[-1, 0]",person
+23,RETOURTYP_BK_S,ordinal,[0],person
+24,SEMIO_SOZ,ordinal,"[-1, 9]",person
+25,SEMIO_FAM,ordinal,"[-1, 9]",person
+26,SEMIO_REL,ordinal,"[-1, 9]",person
+27,SEMIO_MAT,ordinal,"[-1, 9]",person
+28,SEMIO_VERT,ordinal,"[-1, 9]",person
+29,SEMIO_LUST,ordinal,"[-1, 9]",person
+30,SEMIO_ERL,ordinal,"[-1, 9]",person
+31,SEMIO_KULT,ordinal,"[-1, 9]",person
+32,SEMIO_RAT,ordinal,"[-1, 9]",person
+33,SEMIO_KRIT,ordinal,"[-1, 9]",person
+34,SEMIO_DOM,ordinal,"[-1, 9]",person
+35,SEMIO_KAEM,ordinal,"[-1, 9]",person
+36,SEMIO_PFLICHT,ordinal,"[-1, 9]",person
+37,SEMIO_TRADV,ordinal,"[-1, 9]",person
+38,SHOPPER_TYP,categorical,[-1],person
+39,SOHO_KZ,categorical,[-1],person
+40,TITEL_KZ,categorical,"[-1, 0]",person
+41,VERS_TYP,categorical,[-1],person
+42,ZABEOTYP,categorical,"[-1, 9]",person
+43,ALTER_HH,interval,[0],household
+44,ANZ_PERSONEN,numeric,[],household
+45,ANZ_TITEL,numeric,[],household
+46,HH_EINKOMMEN_SCORE,ordinal,"[-1, 0]",household
+47,KK_KUNDENTYP,categorical,[-1],household
+48,W_KEIT_KIND_HH,ordinal,"[-1, 0]",household
+49,WOHNDAUER_2008,ordinal,"[-1, 0]",household
+50,ANZ_HAUSHALTE_AKTIV,numeric,[0],building
+51,ANZ_HH_TITEL,numeric,[],building
+52,GEBAEUDETYP,categorical,"[-1, 0]",building
+53,KONSUMNAEHE,ordinal,[],building
+54,MIN_GEBAEUDEJAHR,numeric,[0],building
+55,OST_WEST_KZ,categorical,[-1],building
+56,WOHNLAGE,mixed,[-1],building
+57,CAMEO_DEUG_2015,categorical,"[-1, 'X']",microcell_rr4
+58,CAMEO_DEU_2015,categorical,['XX'],microcell_rr4
+59,CAMEO_INTL_2015,mixed,"[-1, 'XX']",microcell_rr4
+60,KBA05_ANTG1,ordinal,[-1],microcell_rr3
+61,KBA05_ANTG2,ordinal,[-1],microcell_rr3
+62,KBA05_ANTG3,ordinal,[-1],microcell_rr3
+63,KBA05_ANTG4,ordinal,[-1],microcell_rr3
+64,KBA05_BAUMAX,mixed,"[-1, 0]",microcell_rr3
+65,KBA05_GBZ,ordinal,"[-1, 0]",microcell_rr3
+66,BALLRAUM,ordinal,[-1],postcode
+67,EWDICHTE,ordinal,[-1],postcode
+68,INNENSTADT,ordinal,[-1],postcode
+69,GEBAEUDETYP_RASTER,ordinal,[],region_rr1
+70,KKK,ordinal,"[-1, 0]",region_rr1
+71,MOBI_REGIO,ordinal,[],region_rr1
+72,ONLINE_AFFINITAET,ordinal,[],region_rr1
+73,REGIOTYP,ordinal,"[-1, 0]",region_rr1
+74,KBA13_ANZAHL_PKW,numeric,[],macrocell_plz8
+75,PLZ8_ANTG1,ordinal,[-1],macrocell_plz8
+76,PLZ8_ANTG2,ordinal,[-1],macrocell_plz8
+77,PLZ8_ANTG3,ordinal,[-1],macrocell_plz8
+78,PLZ8_ANTG4,ordinal,[-1],macrocell_plz8
+79,PLZ8_BAUMAX,mixed,"[-1, 0]",macrocell_plz8
+80,PLZ8_HHZ,ordinal,[-1],macrocell_plz8
+81,PLZ8_GBZ,ordinal,[-1],macrocell_plz8
+82,ARBEIT,ordinal,"[-1, 9]",community
+83,ORTSGR_KLS9,ordinal,"[-1, 0]",community
+84,RELAT_AB,ordinal,"[-1, 9]",community
+85,D19_BANKEN_ANZ_12,ordinal,0,
+86,D19_BANKEN_ANZ_24,ordinal,0,
+87,D19_BANKEN_DATUM,ordinal,10,
+88,D19_BANKEN_DIREKT,categorical,0,
+89,D19_BANKEN_GROSS,categorical,0,
+90,D19_BANKEN_LOKAL,categorical,0,
+91,D19_BANKEN_OFFLINE_DATUM,ordinal,10,
+92,D19_BANKEN_ONLINE_DATUM,ordinal,10,
+93,D19_BANKEN_REST,categorical,0,
+94,D19_BEKLEIDUNG_GEH,categorical,0,
+95,D19_BEKLEIDUNG_REST,categorical,0,
+96,D19_BILDUNG,categorical,0,
+97,D19_BIO_OEKO,categorical,0,
+98,D19_DIGIT_SERV,categorical,0,
+99,D19_DROGERIEARTIKEL,categorical,0,
+100,D19_ENERGIE,categorical,0,
+101,D19_FREIZEIT,categorical,0,
+102,D19_GARTEN,categorical,0,
+103,D19_GESAMT_ANZ_12,ordinal,0,
+104,D19_GESAMT_ANZ_24,ordinal,0,
+105,D19_GESAMT_DATUM,ordinal,10,
+106,D19_GESAMT_OFFLINE_DATUM,ordinal,10,
+107,D19_GESAMT_ONLINE_DATUM,ordinal,10,
+108,D19_HANDWERK,categorical,0,
+109,D19_HAUS_DEKO,categorical,0,
+110,D19_KINDERARTIKEL,categorical,0,
+111,D19_KOSMETIK,categorical,0,
+112,D19_LEBENSMITTEL,categorical,0,
+113,D19_LOTTO,categorical,0,
+114,D19_NAHRUNGSERGAENZUNG,categorical,0,
+115,D19_RATGEBER,categorical,0,
+116,D19_REISEN,categorical,0,
+117,D19_SAMMELARTIKEL,categorical,0,
+118,D19_SCHUHE,categorical,0,
+119,D19_SONSTIGE,categorical,0,
+120,D19_TECHNIK,categorical,0,
+121,D19_TELKO_ANZ_12,ordinal,0,
+122,D19_TELKO_ANZ_24,ordinal,0,
+123,D19_TELKO_DATUM,ordinal,10,
+124,D19_TELKO_MOBILE,categorical,0,
+125,D19_TELKO_OFFLINE_DATUM,ordinal,10,
+126,D19_TELKO_ONLINE_DATUM,ordinal,10,
+127,D19_TELKO_REST,categorical,0,
+128,D19_TIERARTIKEL,categorical,0,
+129,D19_VERSAND_ANZ_12,ordinal,0,
+130,D19_VERSAND_ANZ_24,ordinal,0,
+131,D19_VERSAND_DATUM,ordinal,10,
+132,D19_VERSAND_OFFLINE_DATUM,ordinal,10,
+133,D19_VERSAND_ONLINE_DATUM,ordinal,10,
+134,D19_VERSAND_REST,categorical,0,
+135,D19_VERSICHERUNGEN,categorical,0,
+136,D19_VERSI_ANZ_12,ordinal,0,
+137,D19_VERSI_ANZ_24,ordinal,0,
+138,D19_VOLLSORTIMENT,categorical,0,
+139,D19_WEIN_FEINKOST,categorical,0,
+140,KBA05_ALTER1,ordinal,"(-1, 9)",
+141,KBA05_ALTER2,ordinal,"(-1, 9)",
+142,KBA05_ALTER3,ordinal,"(-1, 9)",
+143,KBA05_ALTER4,ordinal,"(-1, 9)",
+144,KBA05_ANHANG,ordinal,"(-1, 9)",
+145,KBA05_AUTOQUOT,ordinal,"(-1, 9)",
+146,KBA05_CCM1,ordinal,"(-1, 9)",
+147,KBA05_CCM2,ordinal,"(-1, 9)",
+148,KBA05_CCM3,ordinal,"(-1, 9)",
+149,KBA05_CCM4,ordinal,"(-1, 9)",
+150,KBA05_DIESEL,ordinal,"(-1, 9)",
+151,KBA05_FRAU,ordinal,"(-1, 9)",
+152,KBA05_HERST1,ordinal,"(-1, 9)",
+153,KBA05_HERST2,ordinal,"(-1, 9)",
+154,KBA05_HERST3,ordinal,"(-1, 9)",
+155,KBA05_HERST4,ordinal,"(-1, 9)",
+156,KBA05_HERST5,ordinal,"(-1, 9)",
+157,KBA05_HERSTTEMP,mixed,"(-1, 9)",
+158,KBA05_KRSAQUOT,ordinal,"(-1, 9)",
+159,KBA05_KRSHERST1,ordinal,"(-1, 9)",
+160,KBA05_KRSHERST2,ordinal,"(-1, 9)",
+161,KBA05_KRSHERST3,ordinal,"(-1, 9)",
+162,KBA05_KRSKLEIN,ordinal,"(-1, 9)",
+163,KBA05_KRSOBER,ordinal,"(-1, 9)",
+164,KBA05_KRSVAN,ordinal,"(-1, 9)",
+165,KBA05_KRSZUL,ordinal,"(-1, 9)",
+166,KBA05_KW1,ordinal,"(-1, 9)",
+167,KBA05_KW2,ordinal,"(-1, 9)",
+168,KBA05_KW3,ordinal,"(-1, 9)",
+169,KBA05_MAXAH,ordinal,"(-1, 9)",
+170,KBA05_MAXBJ,ordinal,"(-1, 9)",
+171,KBA05_MAXHERST,categorical,"(-1, 9)",
+172,KBA05_MAXSEG,categorical,"(-1, 9)",
+173,KBA05_MAXVORB,ordinal,"(-1, 9)",
+174,KBA05_MOD1,ordinal,"(-1, 9)",
+175,KBA05_MOD2,ordinal,"(-1, 9)",
+176,KBA05_MOD3,ordinal,"(-1, 9)",
+177,KBA05_MOD4,ordinal,"(-1, 9)",
+178,KBA05_MOD8,ordinal,"(-1, 9)",
+179,KBA05_MODTEMP,mixed,"(-1, 9)",
+180,KBA05_MOTOR,ordinal,"(-1, 9)",
+181,KBA05_MOTRAD,ordinal,"(-1, 9)",
+182,KBA05_SEG1,ordinal,"(-1, 9)",
+183,KBA05_SEG10,ordinal,"(-1, 9)",
+184,KBA05_SEG2,ordinal,"(-1, 9)",
+185,KBA05_SEG3,ordinal,"(-1, 9)",
+186,KBA05_SEG4,ordinal,"(-1, 9)",
+187,KBA05_SEG5,ordinal,"(-1, 9)",
+188,KBA05_SEG6,ordinal,"(-1, 9)",
+189,KBA05_SEG7,ordinal,"(-1, 9)",
+190,KBA05_SEG8,ordinal,"(-1, 9)",
+191,KBA05_SEG9,ordinal,"(-1, 9)",
+192,KBA05_VORB0,ordinal,"(-1, 9)",
+193,KBA05_VORB1,ordinal,"(-1, 9)",
+194,KBA05_VORB2,ordinal,"(-1, 9)",
+195,KBA05_ZUL1,ordinal,"(-1, 9)",
+196,KBA05_ZUL2,ordinal,"(-1, 9)",
+197,KBA05_ZUL3,ordinal,"(-1, 9)",
+198,KBA05_ZUL4,ordinal,"(-1, 9)",
+199,KBA13_ALTERHALTER_30,ordinal,-1,
+200,KBA13_ALTERHALTER_45,ordinal,-1,
+201,KBA13_ALTERHALTER_60,ordinal,-1,
+202,KBA13_ALTERHALTER_61,ordinal,-1,
+203,KBA13_AUDI,ordinal,-1,
+204,KBA13_AUTOQUOTE,ordinal,-1,
+205,KBA13_BJ_1999,ordinal,-1,
+206,KBA13_BJ_2000,ordinal,-1,
+207,KBA13_BJ_2004,ordinal,-1,
+208,KBA13_BJ_2006,ordinal,-1,
+209,KBA13_BJ_2008,ordinal,-1,
+210,KBA13_BJ_2009,ordinal,-1,
+211,KBA13_BMW,ordinal,-1,
+212,KBA13_CCM_1000,ordinal,-1,
+213,KBA13_CCM_1200,ordinal,-1,
+214,KBA13_CCM_1400,ordinal,-1,
+215,KBA13_CCM_0_1400,ordinal,-1,
+216,KBA13_CCM_1500,ordinal,-1,
+217,KBA13_CCM_1600,ordinal,-1,
+218,KBA13_CCM_1800,ordinal,-1,
+219,KBA13_CCM_2000,ordinal,-1,
+220,KBA13_CCM_2500,ordinal,-1,
+221,KBA13_CCM_2501,ordinal,-1,
+222,KBA13_CCM_3000,ordinal,-1,
+223,KBA13_CCM_3001,ordinal,-1,
+224,KBA13_FAB_ASIEN,ordinal,-1,
+225,KBA13_FAB_SONSTIGE,ordinal,-1,
+226,KBA13_FIAT,ordinal,-1,
+227,KBA13_FORD,ordinal,-1,
+228,KBA13_HALTER_20,ordinal,-1,
+229,KBA13_HALTER_25,ordinal,-1,
+230,KBA13_HALTER_30,ordinal,-1,
+231,KBA13_HALTER_35,ordinal,-1,
+232,KBA13_HALTER_40,ordinal,-1,
+233,KBA13_HALTER_45,ordinal,-1,
+234,KBA13_HALTER_50,ordinal,-1,
+235,KBA13_HALTER_55,ordinal,-1,
+236,KBA13_HALTER_60,ordinal,-1,
+237,KBA13_HALTER_65,ordinal,-1,
+238,KBA13_HALTER_66,ordinal,-1,
+239,KBA13_HERST_ASIEN,ordinal,-1,
+240,KBA13_HERST_AUDI_VW,ordinal,-1,
+241,KBA13_HERST_BMW_BENZ,ordinal,-1,
+242,KBA13_HERST_EUROPA,ordinal,-1,
+243,KBA13_HERST_FORD_OPEL,ordinal,-1,
+244,KBA13_HERST_SONST,ordinal,-1,
+245,KBA13_KMH_110,ordinal,-1,
+246,KBA13_KMH_140,ordinal,-1,
+247,KBA13_KMH_180,ordinal,-1,
+248,KBA13_KMH_0_140,ordinal,-1,
+249,KBA13_KMH_140_210,ordinal,-1,
+250,KBA13_KMH_211,ordinal,-1,
+251,KBA13_KMH_250,ordinal,-1,
+252,KBA13_KMH_251,ordinal,-1,
+253,KBA13_KRSAQUOT,ordinal,-1,
+254,KBA13_KRSHERST_AUDI_VW,ordinal,-1,
+255,KBA13_KRSHERST_BMW_BENZ,ordinal,-1,
+256,KBA13_KRSHERST_FORD_OPEL,ordinal,-1,
+257,KBA13_KRSSEG_KLEIN,ordinal,-1,
+258,KBA13_KRSSEG_OBER,ordinal,-1,
+259,KBA13_KRSSEG_VAN,ordinal,-1,
+260,KBA13_KRSZUL_NEU,ordinal,-1,
+261,KBA13_KW_30,ordinal,-1,
+262,KBA13_KW_40,ordinal,-1,
+263,KBA13_KW_50,ordinal,-1,
+264,KBA13_KW_60,ordinal,-1,
+265,KBA13_KW_0_60,ordinal,-1,
+266,KBA13_KW_70,ordinal,-1,
+267,KBA13_KW_61_120,ordinal,-1,
+268,KBA13_KW_80,ordinal,-1,
+269,KBA13_KW_90,ordinal,-1,
+270,KBA13_KW_110,ordinal,-1,
+271,KBA13_KW_120,ordinal,-1,
+272,KBA13_KW_121,ordinal,-1,
+273,KBA13_MAZDA,ordinal,-1,
+274,KBA13_MERCEDES,ordinal,-1,
+275,KBA13_MOTOR,ordinal,-1,
+276,KBA13_NISSAN,ordinal,-1,
+277,KBA13_OPEL,ordinal,-1,
+278,KBA13_PEUGEOT,ordinal,-1,
+279,KBA13_RENAULT,ordinal,-1,
+280,KBA13_SEG_GELAENDEWAGEN,ordinal,-1,
+281,KBA13_SEG_GROSSRAUMVANS,ordinal,-1,
+282,KBA13_SEG_KLEINST,ordinal,-1,
+283,KBA13_SEG_KLEINWAGEN,ordinal,-1,
+284,KBA13_SEG_KOMPAKTKLASSE,ordinal,-1,
+285,KBA13_SEG_MINIVANS,ordinal,-1,
+286,KBA13_SEG_MINIWAGEN,ordinal,-1,
+287,KBA13_SEG_MITTELKLASSE,ordinal,-1,
+288,KBA13_SEG_OBEREMITTELKLASSE,ordinal,-1,
+289,KBA13_SEG_OBERKLASSE,ordinal,-1,
+290,KBA13_SEG_SONSTIGE,ordinal,-1,
+291,KBA13_SEG_SPORTWAGEN,ordinal,-1,
+292,KBA13_SEG_UTILITIES,ordinal,-1,
+293,KBA13_SEG_VAN,ordinal,-1,
+294,KBA13_SEG_WOHNMOBILE,ordinal,-1,
+295,KBA13_SITZE_4,ordinal,-1,
+296,KBA13_SITZE_5,ordinal,-1,
+297,KBA13_SITZE_6,ordinal,-1,
+298,KBA13_TOYOTA,ordinal,-1,
+299,KBA13_VORB_0,ordinal,-1,
+300,KBA13_VORB_1,ordinal,-1,
+301,KBA13_VORB_1_2,ordinal,-1,
+302,KBA13_VORB_2,ordinal,-1,
+303,KBA13_VORB_3,ordinal,-1,
+304,KBA13_VW,ordinal,-1,
+305,D19_BANKEN_ONLINE_QUOTE_12,interval,,
+306,D19_GESAMT_ONLINE_QUOTE_12,interval,,
+307,D19_KONSUMTYP,categorical,,
+308,D19_VERSAND_ONLINE_QUOTE_12,interval,,
+309,KBA13_ANTG3,,,
+310,KBA13_ANTG2,,,
+311,D19_TELKO_ONLINE_QUOTE_12,,,
+312,ALTER_KIND3,,,
+313,RT_KEIN_ANREIZ,,,
+314,ANZ_KINDER,,,
+315,RT_SCHNAEPPCHEN,,,
+316,ALTER_KIND1,,,
+317,VK_ZG11,,,
+318,D19_VERSI_DATUM,,,
+319,ALTER_KIND2,,,
+320,CJT_TYP_1,,,
+321,VHA,,,
+322,KBA13_ANTG1,,,
+323,UNGLEICHENN_FLAG,,,
+324,DSL_FLAG,,,
+325,D19_KONSUMTYP_MAX,,,
+326,STRUKTURTYP,,,
+327,D19_VERSI_ONLINE_QUOTE_12,,,
+328,LNR,,,
+329,KBA13_ANTG4,,,
+330,HH_DELTA_FLAG,,,
+331,AKT_DAT_KL,,,
+332,D19_VERSI_OFFLINE_DATUM,,,
+333,CJT_TYP_2,,,
+334,VHN,,,
+335,EXTSEL992,,,
+336,VERDICHTUNGSRAUM,,,
+337,UMFELD_ALT,,,
+338,MOBI_RASTER,,,
+339,D19_VERSI_ONLINE_DATUM,,,
+340,ALTERSKATEGORIE_FEIN,,,
+341,D19_SOZIALES,,,
+342,KBA13_KMH_210,,,
+343,GEMEINDETYP,,,
+344,RT_UEBERGROESSE,,,
+345,KBA13_CCM_1401_2500,,,
+346,VK_DHT4A,,,
+347,FIRMENDICHTE,,,
+348,KBA13_BAUMAX,,,
+349,CJT_TYP_5,,,
+350,CJT_TYP_4,,,
+351,CJT_TYP_6,,,
+352,ALTER_KIND4,,,
+353,EINGEFUEGT_AM,,,
+354,D19_BUCH_CD,,,
+355,KOMBIALTER,,,
+356,D19_LETZTER_KAUF_BRANCHE,,,
+357,CJT_KATALOGNUTZER,,,
+358,VK_DISTANZ,,,
+359,EINGEZOGENAM_HH_JAHR,,,
+360,KBA13_GBZ,,,
+361,KONSUMZELLE,,,
+362,ANZ_STATISTISCHE_HAUSHALTE,,,
+363,KBA13_HHZ,,,
+364,UMFELD_JUNG,,,
+365,CJT_TYP_3,,,
