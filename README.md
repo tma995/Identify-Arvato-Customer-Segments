@@ -38,4 +38,4 @@ The submission file received a score of 0.80762 from Kaggle, which ranked top 3 
 ![kaggle_leaderboard_screenshot](img/kaggle_leaderboard_screenshot.png)
 
 ### Instructions:
-The dataset used is not uploaded according to project terms and condition. To make the notebook run succesfully, you just need to download data files and put them in Home directory.
+The dataset used is not uploaded according to project terms and conditions. To make the notebook run succesfully, you just need to download data files and put them in Home directory.
