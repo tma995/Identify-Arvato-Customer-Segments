@@ -30,8 +30,7 @@ Python 3 environment with following libraries:
     │   ├── scaler_std.m                                      # saved Standard Scaler model
     │   └── xgb.m                                             # saved Xgboost model
     ├── README.md    
-    ├── Arvato Project Workbook.ipynb                         # Jupyter Notebook for all process
-    └── response.csv
+    └── Arvato Project Workbook.ipynb                         # Jupyter Notebook for all process
     
 ### Results:
 The submission file received a score of 0.80762 from Kaggle, which ranked top 3 on Public Leaderboard at the time and very close to the Top Score 0.808.
