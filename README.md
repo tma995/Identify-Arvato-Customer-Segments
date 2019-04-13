@@ -7,7 +7,7 @@
 
 * Use supervised learning techniques to predict customer responses in a marketing campaign for the mail-order company, which is also a [Kaggle competition](http://www.kaggle.com/t/21e6d45d4c574c7fa2d868f0e8c83140). 
 
-* Please refer to [my Report](https://github.com/tma995/Identify-Arvato-Customer-Segments/blob/master/report.pdf) for detailed project documentation and [my Blog Post](http://tma995.github.io/2019/04/13/identify-arvato-customer-segments.html) for highlights.
+* Please refer to [my Report](https://github.com/tma995/Identify-Arvato-Customer-Segments/blob/master/report.pdf) for detailed project documentation, [my Medium Post](https://medium.com/@tma995/customer-segmentation-report-for-arvato-financial-services-d1f3a7bf5fb2) or [my Blog Post](http://tma995.github.io/2019/04/13/identify-arvato-customer-segments.html) for highlights.
 
 ### Installations:
 Python 3 environment with following libraries:
