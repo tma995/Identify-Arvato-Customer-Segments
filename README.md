@@ -7,6 +7,8 @@
 
 * Use supervised learning techniques to predict customer responses in a marketing campaign for the mail-order company, which is also a [Kaggle competition](http://www.kaggle.com/t/21e6d45d4c574c7fa2d868f0e8c83140). 
 
+* Please refer to [my Report](https://github.com/tma995/Identify-Arvato-Customer-Segments/blob/master/report.pdf) for detailed project documentation and [my Blog Post](http://tma995.github.io/2019/04/13/identify-arvato-customer-segments.html) for highlights.
+
 ### Installations:
 Python 3 environment with following libraries:
 
@@ -31,7 +33,8 @@ Python 3 environment with following libraries:
     │   └── xgb.m                                           # saved Xgboost model
     ├── README.md    
     ├── Arvato Project Workbook.ipynb                       # Jupyter Notebook for all process
-    └── Arvato+Project+Workbook.html                        # HTML page of notebook
+    ├── Arvato+Project+Workbook.html                        # HTML page of notebook
+    └── report.pdf                                          # Detailed pdf report for the whole research process
     
 ### Results:
 The submission file received a score of 0.80762 from Kaggle, which ranked top 3 on Public Leaderboard at the time and very close to the Top Score 0.808.
